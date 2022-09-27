@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(211, 135, 152);
+}
+
+.container{
+    background-color: rgb(255, 89, 0);
+    width: 20%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    margin-top: 10rem;
+    height: 20rem;
+}
+
+button{
+    margin-right: 5px;
+}
+
+/* CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: yellowgreen;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: tomato;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: 0.1rem solid black;
+}
+
+.container h1{
+    margin-bottom: 1rem;
+}
+
+.container span{
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 8rem;
+}
+
+.container button{
+    outline: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
